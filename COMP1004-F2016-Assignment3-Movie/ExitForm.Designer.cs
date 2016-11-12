@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExitForm));
-            this.GoodByeTimer = new System.Windows.Forms.Timer(this.components);
+            this.ExitTimer = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // GoodByeTimer
+            // ExitTimer
             // 
-            this.GoodByeTimer.Interval = 3000;
-            this.GoodByeTimer.Tick += new System.EventHandler(this.GoodByeTimer_Tick);
+            this.ExitTimer.Interval = 3000;
+            this.ExitTimer.Tick += new System.EventHandler(this.ExitTimer_Tick);
             // 
             // pictureBox1
             // 
@@ -70,7 +70,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Timer GoodByeTimer;
+        private System.Windows.Forms.Timer ExitTimer;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

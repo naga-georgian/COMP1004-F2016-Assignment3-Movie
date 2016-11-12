@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-+// Name: Naga Rimmalapudi
- +// Student #: 200277598
- +// Description: This form is about the splash form, with which the application starts
- +// Date: November 7th 2016
+// Name: Naga Rimmalapudi
+// Student #: 200277598
+// Description: This form is about the splash form, with which the application starts
+// Date: November 7th 2016
 
 namespace COMP1004_F2016_Assignment3_Movie
 {

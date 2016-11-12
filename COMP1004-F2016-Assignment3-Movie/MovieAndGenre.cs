@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+// Name: Naga Rimmalapudi
+// Student #: 200277598
+// Description: This form is about the Movie and Genres
+// Date: November 7th 2016
 
 namespace COMP1004_F2016_Assignment3_Movie
 {
