@@ -86,5 +86,15 @@ namespace COMP1004_F2016_Assignment3_Movie
 
         }
 
+        //Back button returns you to the previous form.
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            select.Show();
+            this.Hide();
+            select.ReturnInfo();
+
+
+        }
+
     }
 }
