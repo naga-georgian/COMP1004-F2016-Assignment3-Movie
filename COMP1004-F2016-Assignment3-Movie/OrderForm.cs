@@ -20,6 +20,17 @@ namespace COMP1004_F2016_Assignment3_Movie
             InitializeComponent();
         }
 
+        //Cancel button closes the form
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        //X closes the form
+        private void OrderForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
 
     }
 }
