@@ -96,5 +96,46 @@ namespace COMP1004_F2016_Assignment3_Movie
 
         }
 
+        //When check box is checked run the calculate totals method
+        private void OrderDvdCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+            CalculateTotals();
+
+
+
+        }
+
+        private void StreamButton_Click(object sender, EventArgs e)
+        {
+            StreamingForm stream = new StreamingForm();
+            stream.Show();
+            this.Hide();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your receipt is being printed!", "Movie Bananza");
+
+        }
+
+        private void streamToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StreamButton.PerformClick();
+        }
+
+        private void cancelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CancelButton.PerformClick();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Developer: Naga Rimmalapudi" + "\r\n" +
+                "Version: 3.1.1" + "\r\n" + "Website: www.moviebonanza.com" + "\r\n" +
+                "About");
+        }
+
+
     }
 }
