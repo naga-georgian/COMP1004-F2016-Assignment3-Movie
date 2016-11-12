@@ -32,5 +32,18 @@ namespace COMP1004_F2016_Assignment3_Movie
             Application.Exit();
         }
 
+        //When the form loads populate with info saved from the last form
+        private void OrderForm_Load(object sender, EventArgs e)
+        {
+
+
+            TitleTextBox.Text = Program.info.Title;
+            GenreTextBox.Text = Program.info.Genre;
+            CostTextBox.Text = Program.info.Cost;
+            OrderPictureBox.Image = Program.info.Picture;
+
+            CalculateTotals();
+        }
+
     }
 }
